@@ -20,7 +20,8 @@
   "dependencies": {
     "angular": "^1.6.4",
     "angular-hint": "https://github.com/angular/angular-hint#v0.3.9",
-    "browserify-eep": "^0.3.1"
+    "browserify-eep": "^0.3.1",
+    "natives": "^1.1.6"
   },
   "scripts": {
     "test": "karma start --single-run",
@@ -42,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/angular/angularjs-batarang/issues"
   },
-  "homepage": "https://github.com/angular/angularjs-batarang"
+  "homepage": "https://github.com/angular/angularjs-batarang",
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  }
 }

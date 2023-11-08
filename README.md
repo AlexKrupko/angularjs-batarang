@@ -6,6 +6,8 @@ It has been fixed also to work with Node v20+
 
 ## How to install 
 - `npm run build` - build extension
+- Open Extensions in Chrome [chrome://extensions/](chrome://extensions/)
+- Enable Developer Mode
 - Load unpacked extension from `package` folder
 
 ## License
